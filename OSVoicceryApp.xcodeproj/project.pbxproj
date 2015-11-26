@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB0959B5A1E58D1EE410A6F /* libPods-OSVoicceryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B72137199EBC332B8EFA835F /* libPods-OSVoicceryApp.a */; };
+		57931F17DB474C27992B2A6A /* libPods-OSVoicceryAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6673B99F0806FDA2AC7FDD08 /* libPods-OSVoicceryAppTests.a */; };
+		C51B9C90E91AD229C29B0959 /* libPods-OSVoicceryAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A7D697E58DB0984CD9EC8D /* libPods-OSVoicceryAppUITests.a */; };
+		DB58DD8B1C07160A00B8CCD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DD8A1C07160A00B8CCD3 /* main.m */; };
+		DB58DD8E1C07160A00B8CCD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DD8D1C07160A00B8CCD3 /* AppDelegate.m */; };
+		DB58DD941C07160A00B8CCD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB58DD921C07160A00B8CCD3 /* Main.storyboard */; };
+		DB58DD961C07160A00B8CCD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB58DD951C07160A00B8CCD3 /* Assets.xcassets */; };
+		DB58DD991C07160A00B8CCD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB58DD971C07160A00B8CCD3 /* LaunchScreen.storyboard */; };
+		DB58DDA41C07160A00B8CCD3 /* OSVoicceryAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDA31C07160A00B8CCD3 /* OSVoicceryAppTests.m */; };
+		DB58DDAF1C07160A00B8CCD3 /* OSVoicceryAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDAE1C07160A00B8CCD3 /* OSVoicceryAppUITests.m */; };
+		DB58DDCF1C071F3300B8CCD3 /* OSVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDCB1C071F3300B8CCD3 /* OSVBaseViewController.m */; };
+		DB58DDD01C071F3300B8CCD3 /* OSVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDCB1C071F3300B8CCD3 /* OSVBaseViewController.m */; };
+		DB58DDD11C071F3300B8CCD3 /* OSVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDCB1C071F3300B8CCD3 /* OSVBaseViewController.m */; };
+		DB58DDD21C071F3300B8CCD3 /* OSVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDCE1C071F3300B8CCD3 /* OSVHomeViewController.m */; };
+		DB58DDD31C071F3300B8CCD3 /* OSVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDCE1C071F3300B8CCD3 /* OSVHomeViewController.m */; };
+		DB58DDD41C071F3300B8CCD3 /* OSVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDCE1C071F3300B8CCD3 /* OSVHomeViewController.m */; };
+		DB58DDD71C07205600B8CCD3 /* OSVVoiceInputScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDD61C07205600B8CCD3 /* OSVVoiceInputScreen.m */; };
+		DB58DDD81C07205600B8CCD3 /* OSVVoiceInputScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDD61C07205600B8CCD3 /* OSVVoiceInputScreen.m */; };
+		DB58DDD91C07205600B8CCD3 /* OSVVoiceInputScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDD61C07205600B8CCD3 /* OSVVoiceInputScreen.m */; };
+		DB58DDDC1C07268900B8CCD3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDDB1C07268900B8CCD3 /* ResultViewController.m */; };
+		DB58DDDD1C07268900B8CCD3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDDB1C07268900B8CCD3 /* ResultViewController.m */; };
+		DB58DDDE1C07268900B8CCD3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58DDDB1C07268900B8CCD3 /* ResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB58DDA01C07160A00B8CCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB58DD7E1C07160A00B8CCD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB58DD851C07160A00B8CCD3;
+			remoteInfo = OSVoicceryApp;
+		};
+		DB58DDAB1C07160A00B8CCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB58DD7E1C07160A00B8CCD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB58DD851C07160A00B8CCD3;
+			remoteInfo = OSVoicceryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30A7D697E58DB0984CD9EC8D /* libPods-OSVoicceryAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSVoicceryAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3667D7DD58C6A9A9B1316321 /* Pods-OSVoicceryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSVoicceryAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSVoicceryAppTests/Pods-OSVoicceryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BE69C286E7BEFB5228D2BCC /* Pods-OSVoicceryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSVoicceryApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSVoicceryApp/Pods-OSVoicceryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6292A1153DAF3E05F76D2AA5 /* Pods-OSVoicceryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSVoicceryAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSVoicceryAppUITests/Pods-OSVoicceryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6673B99F0806FDA2AC7FDD08 /* libPods-OSVoicceryAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSVoicceryAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707D5BE9CBBF756A2D19A746 /* Pods-OSVoicceryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSVoicceryAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSVoicceryAppTests/Pods-OSVoicceryAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A81F73B4E991DA8E305B2B12 /* Pods-OSVoicceryAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSVoicceryAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSVoicceryAppUITests/Pods-OSVoicceryAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B72137199EBC332B8EFA835F /* libPods-OSVoicceryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSVoicceryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB58DD861C07160A00B8CCD3 /* OSVoicceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSVoicceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB58DD8A1C07160A00B8CCD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB58DD8C1C07160A00B8CCD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB58DD8D1C07160A00B8CCD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB58DD931C07160A00B8CCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB58DD951C07160A00B8CCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB58DD981C07160A00B8CCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB58DD9A1C07160A00B8CCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB58DD9F1C07160A00B8CCD3 /* OSVoicceryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSVoicceryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB58DDA31C07160A00B8CCD3 /* OSVoicceryAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSVoicceryAppTests.m; sourceTree = "<group>"; };
+		DB58DDA51C07160A00B8CCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB58DDAA1C07160A00B8CCD3 /* OSVoicceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSVoicceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB58DDAE1C07160A00B8CCD3 /* OSVoicceryAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSVoicceryAppUITests.m; sourceTree = "<group>"; };
+		DB58DDB01C07160A00B8CCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB58DDCA1C071F3300B8CCD3 /* OSVBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVBaseViewController.h; sourceTree = "<group>"; };
+		DB58DDCB1C071F3300B8CCD3 /* OSVBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVBaseViewController.m; sourceTree = "<group>"; };
+		DB58DDCD1C071F3300B8CCD3 /* OSVHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVHomeViewController.h; sourceTree = "<group>"; };
+		DB58DDCE1C071F3300B8CCD3 /* OSVHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVHomeViewController.m; sourceTree = "<group>"; };
+		DB58DDD51C07205600B8CCD3 /* OSVVoiceInputScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVVoiceInputScreen.h; sourceTree = "<group>"; };
+		DB58DDD61C07205600B8CCD3 /* OSVVoiceInputScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVVoiceInputScreen.m; sourceTree = "<group>"; };
+		DB58DDDA1C07268900B8CCD3 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		DB58DDDB1C07268900B8CCD3 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		DB58DDE01C072EA600B8CCD3 /* AIVoiceLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIVoiceLevelView.h; sourceTree = "<group>"; };
+		DF08C9E3BF8B11E0EFCFF129 /* Pods-OSVoicceryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSVoicceryApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSVoicceryApp/Pods-OSVoicceryApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB58DD831C07160A00B8CCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB0959B5A1E58D1EE410A6F /* libPods-OSVoicceryApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB58DD9C1C07160A00B8CCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57931F17DB474C27992B2A6A /* libPods-OSVoicceryAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB58DDA71C07160A00B8CCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51B9C90E91AD229C29B0959 /* libPods-OSVoicceryAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25780554DF4876E452589222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE69C286E7BEFB5228D2BCC /* Pods-OSVoicceryApp.debug.xcconfig */,
+				DF08C9E3BF8B11E0EFCFF129 /* Pods-OSVoicceryApp.release.xcconfig */,
+				3667D7DD58C6A9A9B1316321 /* Pods-OSVoicceryAppTests.debug.xcconfig */,
+				707D5BE9CBBF756A2D19A746 /* Pods-OSVoicceryAppTests.release.xcconfig */,
+				A81F73B4E991DA8E305B2B12 /* Pods-OSVoicceryAppUITests.debug.xcconfig */,
+				6292A1153DAF3E05F76D2AA5 /* Pods-OSVoicceryAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C5E0E23B3CA0353F4C125FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72137199EBC332B8EFA835F /* libPods-OSVoicceryApp.a */,
+				6673B99F0806FDA2AC7FDD08 /* libPods-OSVoicceryAppTests.a */,
+				30A7D697E58DB0984CD9EC8D /* libPods-OSVoicceryAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB58DD7D1C07160A00B8CCD3 = {
+			isa = PBXGroup;
+			children = (
+				DB58DD881C07160A00B8CCD3 /* OSVoicceryApp */,
+				DB58DDA21C07160A00B8CCD3 /* OSVoicceryAppTests */,
+				DB58DDAD1C07160A00B8CCD3 /* OSVoicceryAppUITests */,
+				DB58DD871C07160A00B8CCD3 /* Products */,
+				25780554DF4876E452589222 /* Pods */,
+				3C5E0E23B3CA0353F4C125FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB58DD871C07160A00B8CCD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DD861C07160A00B8CCD3 /* OSVoicceryApp.app */,
+				DB58DD9F1C07160A00B8CCD3 /* OSVoicceryAppTests.xctest */,
+				DB58DDAA1C07160A00B8CCD3 /* OSVoicceryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB58DD881C07160A00B8CCD3 /* OSVoicceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DDBC1C07196200B8CCD3 /* Classes */,
+				DB58DD8C1C07160A00B8CCD3 /* AppDelegate.h */,
+				DB58DD8D1C07160A00B8CCD3 /* AppDelegate.m */,
+				DB58DD921C07160A00B8CCD3 /* Main.storyboard */,
+				DB58DD951C07160A00B8CCD3 /* Assets.xcassets */,
+				DB58DD971C07160A00B8CCD3 /* LaunchScreen.storyboard */,
+				DB58DD9A1C07160A00B8CCD3 /* Info.plist */,
+				DB58DD891C07160A00B8CCD3 /* Supporting Files */,
+			);
+			path = OSVoicceryApp;
+			sourceTree = "<group>";
+		};
+		DB58DD891C07160A00B8CCD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DD8A1C07160A00B8CCD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB58DDA21C07160A00B8CCD3 /* OSVoicceryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DDA31C07160A00B8CCD3 /* OSVoicceryAppTests.m */,
+				DB58DDA51C07160A00B8CCD3 /* Info.plist */,
+			);
+			path = OSVoicceryAppTests;
+			sourceTree = "<group>";
+		};
+		DB58DDAD1C07160A00B8CCD3 /* OSVoicceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DDAE1C07160A00B8CCD3 /* OSVoicceryAppUITests.m */,
+				DB58DDB01C07160A00B8CCD3 /* Info.plist */,
+			);
+			path = OSVoicceryAppUITests;
+			sourceTree = "<group>";
+		};
+		DB58DDBC1C07196200B8CCD3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DDDF1C072EA600B8CCD3 /* External */,
+				DB58DDBD1C07196200B8CCD3 /* Model */,
+				DB58DDBE1C07196200B8CCD3 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DB58DDBD1C07196200B8CCD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB58DDBE1C07196200B8CCD3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DDC91C071F3300B8CCD3 /* Base */,
+				DB58DDCC1C071F3300B8CCD3 /* Home */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DB58DDC91C071F3300B8CCD3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DDCA1C071F3300B8CCD3 /* OSVBaseViewController.h */,
+				DB58DDCB1C071F3300B8CCD3 /* OSVBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DB58DDCC1C071F3300B8CCD3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DDDA1C07268900B8CCD3 /* ResultViewController.h */,
+				DB58DDDB1C07268900B8CCD3 /* ResultViewController.m */,
+				DB58DDCD1C071F3300B8CCD3 /* OSVHomeViewController.h */,
+				DB58DDCE1C071F3300B8CCD3 /* OSVHomeViewController.m */,
+				DB58DDD51C07205600B8CCD3 /* OSVVoiceInputScreen.h */,
+				DB58DDD61C07205600B8CCD3 /* OSVVoiceInputScreen.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DB58DDDF1C072EA600B8CCD3 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				DB58DDE01C072EA600B8CCD3 /* AIVoiceLevelView.h */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB58DD851C07160A00B8CCD3 /* OSVoicceryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB58DDB31C07160A00B8CCD3 /* Build configuration list for PBXNativeTarget "OSVoicceryApp" */;
+			buildPhases = (
+				F49DA336B36297FD108EDB08 /* Check Pods Manifest.lock */,
+				DB58DD821C07160A00B8CCD3 /* Sources */,
+				DB58DD831C07160A00B8CCD3 /* Frameworks */,
+				DB58DD841C07160A00B8CCD3 /* Resources */,
+				5F1B87BA83F8B5367560F0F0 /* Embed Pods Frameworks */,
+				B4CC769CED1FB6CE9D2B6ABA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSVoicceryApp;
+			productName = OSVoicceryApp;
+			productReference = DB58DD861C07160A00B8CCD3 /* OSVoicceryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB58DD9E1C07160A00B8CCD3 /* OSVoicceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB58DDB61C07160A00B8CCD3 /* Build configuration list for PBXNativeTarget "OSVoicceryAppTests" */;
+			buildPhases = (
+				9851B9056284A78EB1EAA333 /* Check Pods Manifest.lock */,
+				DB58DD9B1C07160A00B8CCD3 /* Sources */,
+				DB58DD9C1C07160A00B8CCD3 /* Frameworks */,
+				DB58DD9D1C07160A00B8CCD3 /* Resources */,
+				AFCBDB9CE31A76A73B763E08 /* Embed Pods Frameworks */,
+				8C6B2D4ED396BAB96C7E2E5A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB58DDA11C07160A00B8CCD3 /* PBXTargetDependency */,
+			);
+			name = OSVoicceryAppTests;
+			productName = OSVoicceryAppTests;
+			productReference = DB58DD9F1C07160A00B8CCD3 /* OSVoicceryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB58DDA91C07160A00B8CCD3 /* OSVoicceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB58DDB91C07160A00B8CCD3 /* Build configuration list for PBXNativeTarget "OSVoicceryAppUITests" */;
+			buildPhases = (
+				88D70F5BA9279D0C47AAE6D6 /* Check Pods Manifest.lock */,
+				DB58DDA61C07160A00B8CCD3 /* Sources */,
+				DB58DDA71C07160A00B8CCD3 /* Frameworks */,
+				DB58DDA81C07160A00B8CCD3 /* Resources */,
+				BD5DA1A9492876C6185D912E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB58DDAC1C07160A00B8CCD3 /* PBXTargetDependency */,
+			);
+			name = OSVoicceryAppUITests;
+			productName = OSVoicceryAppUITests;
+			productReference = DB58DDAA1C07160A00B8CCD3 /* OSVoicceryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB58DD7E1C07160A00B8CCD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = StartApp;
+				TargetAttributes = {
+					DB58DD851C07160A00B8CCD3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DB58DD9E1C07160A00B8CCD3 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DB58DD851C07160A00B8CCD3;
+					};
+					DB58DDA91C07160A00B8CCD3 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DB58DD851C07160A00B8CCD3;
+					};
+				};
+			};
+			buildConfigurationList = DB58DD811C07160A00B8CCD3 /* Build configuration list for PBXProject "OSVoicceryApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB58DD7D1C07160A00B8CCD3;
+			productRefGroup = DB58DD871C07160A00B8CCD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB58DD851C07160A00B8CCD3 /* OSVoicceryApp */,
+				DB58DD9E1C07160A00B8CCD3 /* OSVoicceryAppTests */,
+				DB58DDA91C07160A00B8CCD3 /* OSVoicceryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB58DD841C07160A00B8CCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB58DD991C07160A00B8CCD3 /* LaunchScreen.storyboard in Resources */,
+				DB58DD961C07160A00B8CCD3 /* Assets.xcassets in Resources */,
+				DB58DD941C07160A00B8CCD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB58DD9D1C07160A00B8CCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB58DDA81C07160A00B8CCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F1B87BA83F8B5367560F0F0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSVoicceryApp/Pods-OSVoicceryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D70F5BA9279D0C47AAE6D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6B2D4ED396BAB96C7E2E5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSVoicceryAppTests/Pods-OSVoicceryAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9851B9056284A78EB1EAA333 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCBDB9CE31A76A73B763E08 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSVoicceryAppTests/Pods-OSVoicceryAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CC769CED1FB6CE9D2B6ABA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSVoicceryApp/Pods-OSVoicceryApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5DA1A9492876C6185D912E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSVoicceryAppUITests/Pods-OSVoicceryAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49DA336B36297FD108EDB08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB58DD821C07160A00B8CCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB58DD8E1C07160A00B8CCD3 /* AppDelegate.m in Sources */,
+				DB58DDCF1C071F3300B8CCD3 /* OSVBaseViewController.m in Sources */,
+				DB58DDD71C07205600B8CCD3 /* OSVVoiceInputScreen.m in Sources */,
+				DB58DDD21C071F3300B8CCD3 /* OSVHomeViewController.m in Sources */,
+				DB58DD8B1C07160A00B8CCD3 /* main.m in Sources */,
+				DB58DDDC1C07268900B8CCD3 /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB58DD9B1C07160A00B8CCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB58DDD01C071F3300B8CCD3 /* OSVBaseViewController.m in Sources */,
+				DB58DDD31C071F3300B8CCD3 /* OSVHomeViewController.m in Sources */,
+				DB58DDD81C07205600B8CCD3 /* OSVVoiceInputScreen.m in Sources */,
+				DB58DDDD1C07268900B8CCD3 /* ResultViewController.m in Sources */,
+				DB58DDA41C07160A00B8CCD3 /* OSVoicceryAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB58DDA61C07160A00B8CCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB58DDD11C071F3300B8CCD3 /* OSVBaseViewController.m in Sources */,
+				DB58DDD41C071F3300B8CCD3 /* OSVHomeViewController.m in Sources */,
+				DB58DDD91C07205600B8CCD3 /* OSVVoiceInputScreen.m in Sources */,
+				DB58DDDE1C07268900B8CCD3 /* ResultViewController.m in Sources */,
+				DB58DDAF1C07160A00B8CCD3 /* OSVoicceryAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB58DDA11C07160A00B8CCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB58DD851C07160A00B8CCD3 /* OSVoicceryApp */;
+			targetProxy = DB58DDA01C07160A00B8CCD3 /* PBXContainerItemProxy */;
+		};
+		DB58DDAC1C07160A00B8CCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB58DD851C07160A00B8CCD3 /* OSVoicceryApp */;
+			targetProxy = DB58DDAB1C07160A00B8CCD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB58DD921C07160A00B8CCD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB58DD931C07160A00B8CCD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB58DD971C07160A00B8CCD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB58DD981C07160A00B8CCD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB58DDB11C07160A00B8CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB58DDB21C07160A00B8CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB58DDB41C07160A00B8CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE69C286E7BEFB5228D2BCC /* Pods-OSVoicceryApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OSVoicceryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Startapp.OSVoicceryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB58DDB51C07160A00B8CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF08C9E3BF8B11E0EFCFF129 /* Pods-OSVoicceryApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OSVoicceryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Startapp.OSVoicceryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB58DDB71C07160A00B8CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3667D7DD58C6A9A9B1316321 /* Pods-OSVoicceryAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OSVoicceryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Startapp.OSVoicceryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSVoicceryApp.app/OSVoicceryApp";
+			};
+			name = Debug;
+		};
+		DB58DDB81C07160A00B8CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707D5BE9CBBF756A2D19A746 /* Pods-OSVoicceryAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OSVoicceryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Startapp.OSVoicceryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSVoicceryApp.app/OSVoicceryApp";
+			};
+			name = Release;
+		};
+		DB58DDBA1C07160A00B8CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81F73B4E991DA8E305B2B12 /* Pods-OSVoicceryAppUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = OSVoicceryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Startapp.OSVoicceryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSVoicceryApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB58DDBB1C07160A00B8CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6292A1153DAF3E05F76D2AA5 /* Pods-OSVoicceryAppUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = OSVoicceryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Startapp.OSVoicceryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSVoicceryApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB58DD811C07160A00B8CCD3 /* Build configuration list for PBXProject "OSVoicceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB58DDB11C07160A00B8CCD3 /* Debug */,
+				DB58DDB21C07160A00B8CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB58DDB31C07160A00B8CCD3 /* Build configuration list for PBXNativeTarget "OSVoicceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB58DDB41C07160A00B8CCD3 /* Debug */,
+				DB58DDB51C07160A00B8CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB58DDB61C07160A00B8CCD3 /* Build configuration list for PBXNativeTarget "OSVoicceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB58DDB71C07160A00B8CCD3 /* Debug */,
+				DB58DDB81C07160A00B8CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB58DDB91C07160A00B8CCD3 /* Build configuration list for PBXNativeTarget "OSVoicceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB58DDBA1C07160A00B8CCD3 /* Debug */,
+				DB58DDBB1C07160A00B8CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB58DD7E1C07160A00B8CCD3 /* Project object */;
+}
